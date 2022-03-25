@@ -1,0 +1,54 @@
+.header {
+    background-image: url("../assets/fondo-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.header_img img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+.container h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+.container h3 {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.autor {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2rem;
+}
+.precio {
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+}
+.logo {
+    position: absolute;
+    right: 17rem;
+    bottom: 5rem;
+}
+.logo img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+}

@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    gap: 5rem;
+}
+.navbar_container {
+    display: flex;
+    flex-direction: row;
+}
+.navbar img {
+    width: 200px;
+    display: block;
+}
+.lista ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+.lista ul a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.filtro {
+    margin-left: 3rem;
+    position: relative;
+}
+.filtro input {
+    border-radius: 15px;
+    border: none;
+    padding: 0.5rem 2.3rem;
+}
+.input_icon {
+    color: #000000;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}

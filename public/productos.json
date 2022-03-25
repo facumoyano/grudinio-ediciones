@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "nombre": "titulo",
+        "autor": "autor",
+        "precio": "2000",
+        "imgUrl": "libro1.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "titulo",
+        "autor": "autor",
+        "precio": "2000",
+        "imgUrl": "libro2.jpg"
+    },
+    {
+        "id": "3",
+        "nombre": "titulo",
+        "autor": "autor",
+        "precio": "2000",
+        "imgUrl": "libro3.jpg"
+    },
+    {
+        "id": "4",
+        "nombre": "titulo",
+        "autor": "autor",
+        "precio": "2000",
+        "imgUrl": "libro4.jpg"
+    },
+    {
+        "id": "5",
+        "nombre": "titulo",
+        "autor": "autor",
+        "precio": "2000",
+        "imgUrl": "libro5.jpg"
+    }
+]
