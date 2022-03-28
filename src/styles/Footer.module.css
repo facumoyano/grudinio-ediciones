@@ -1,0 +1,58 @@
+.footer {
+    background-color: #000000;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
+}
+.empresa {
+    display: flex;
+    flex-direction: column;
+}
+.empresa img {
+    width: 150px;
+    object-fit: cover;
+}
+.empresa p {
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.redes {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.redes p {
+    margin: 0;
+    padding-left: 1.4rem;
+    padding-top: 1rem;
+}
+.redes ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.redes ul li a {
+    color: #000000;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.derechos {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

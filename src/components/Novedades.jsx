@@ -5,7 +5,9 @@ const Novedades = () => {
     return (
         <section className={styles.container}>
             <h3>Novedades</h3>
-            <Item />
+            <div className={styles.grid}>
+                <Item />
+            </div>
         </section>
     );
 };

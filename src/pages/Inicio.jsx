@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import HeaderHome from "../components/HeaderHome";
 import Navbar from "../components/Navbar";
 import Novedades from "../components/Novedades";
@@ -9,6 +10,7 @@ const Inicio = () => {
             <Navbar />
             <HeaderHome />
             <Novedades />
+            <Footer />
         </div>
     );
 };

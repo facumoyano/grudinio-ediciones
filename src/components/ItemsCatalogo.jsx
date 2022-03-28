@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { MdAddShoppingCart } from "react-icons/md";
 import styles from "../styles/Item.module.css";
 
-const Item = () => {
+const ItemsCatalogo = () => {
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
@@ -17,7 +17,7 @@ const Item = () => {
 
     return (
         <>
-            {productos.slice(0, 5).map((producto) => (
+            {productos.map((producto) => (
                 <div key={producto.id} className={styles.item}>
                     <img
                         src={require(`../assets/${producto.imgUrl}`)}
@@ -36,4 +36,4 @@ const Item = () => {
     );
 };
 
-export default Item;
+export default ItemsCatalogo;
