@@ -1,0 +1,107 @@
+.bg {
+    background: #000000;
+    color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+.titulos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.titulos h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.titulos h2 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.titulos p {
+    font-style: italic;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.titulos,
+h1,
+h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.detalles {
+    display: flex;
+    gap: 2rem;
+}
+.detalles_img img {
+    width: 200px;
+}
+.precio {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+}
+.precio a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.precio p {
+    font-size: 2rem;
+    margin: 0;
+}
+.precio button {
+    border: none;
+    background-color: #4cd964;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding: 0 1.2rem;
+}
+.disponible p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+.disponible_verde {
+    color: #39c761;
+}
+.datos {
+    margin-top: 2rem;
+}
+.datos p {
+    font-size: 1rem;
+    margin: 0.8rem 0;
+}
+.sinopsis {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-left: 1px solid #ffffff;
+    border-collapse: separate;
+    border-spacing: 2rem;
+    padding-left: 2rem;
+}
+.sinopsis p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.sinopsis_titulo {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.autor_footer h4 {
+    font-size: 1.6rem;
+}
+.autor_footer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}

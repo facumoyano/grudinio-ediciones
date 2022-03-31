@@ -3,8 +3,14 @@
     margin: 0 auto;
     padding-bottom: 2rem;
 }
+.bg {
+    background-color: #000000;
+    color: #fff;
+}
 .container h3 {
     font-size: 1.8rem;
+    margin: 0;
+    padding: 2rem 0;
 }
 .grid {
     display: grid;

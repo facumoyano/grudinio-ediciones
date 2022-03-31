@@ -1,7 +1,6 @@
 .background {
-    background-image: url(../assets/bg-nosotros.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background: #000000;
+    color: #fff;
 }
 .grid {
     display: grid;
@@ -28,7 +27,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background-color: #01c2c9;
+    background-color: #000000;
     color: white;
     font-size: 1rem;
     border-radius: 10px;

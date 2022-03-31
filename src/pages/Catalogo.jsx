@@ -7,10 +7,12 @@ const Catalogo = () => {
     return (
         <>
             <Navbar />
-            <main className={styles.container}>
-                <h1>Todos</h1>
-                <div className={styles.grid}>
-                    <ItemsCatalogo />
+            <main className={styles.bg}>
+                <div className={styles.container}>
+                    <h1>Todos</h1>
+                    <div className={styles.grid}>
+                        <ItemsCatalogo />
+                    </div>
                 </div>
             </main>
             <Footer />

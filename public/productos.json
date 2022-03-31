@@ -4,69 +4,139 @@
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro1.jpg"
+        "imgUrl": "libro1.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "2",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro2.jpg"
+        "imgUrl": "libro2.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "3",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro3.jpg"
+        "imgUrl": "libro3.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "4",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro4.jpg"
+        "imgUrl": "libro4.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "5",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro5.jpg"
+        "imgUrl": "libro5.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "6",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro1.jpg"
+        "imgUrl": "libro1.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "7",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro2.jpg"
+        "imgUrl": "libro2.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "8",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro3.jpg"
+        "imgUrl": "libro3.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "9",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro4.jpg"
+        "imgUrl": "libro4.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     },
     {
         "id": "10",
         "nombre": "titulo",
         "autor": "autor",
         "precio": "2000",
-        "imgUrl": "libro5.jpg"
+        "imgUrl": "libro5.jpg",
+        "editorial": "LOREM",
+        "coleccion": "sin coleccion",
+        "idioma": "Español",
+        "numeropaginas": "100",
+        "dimensiones": "200cm x 125cm",
+        "fechapub": "2022",
+        "materia": "Cine y tv"
     }
 ]

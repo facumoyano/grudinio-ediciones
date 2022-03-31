@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 3rem 0;
 }
+.bg {
+    background: #000000;
+    color: #ffffff;
+}
 .container h1 {
     margin: 0;
     font-size: 1.6rem;
