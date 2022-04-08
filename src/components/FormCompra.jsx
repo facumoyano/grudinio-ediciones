@@ -47,24 +47,46 @@ const FormCompra = () => {
                             <label htmlFor="libro">Libro:</label>
                         </div>
                         <div className={styles.input_container}>
-                            <input type="text" name="nombre" id="nombre" />
-                            <input type="text" name="apellido" id="apellido" />
+                            <input
+                                type="text"
+                                name="nombre"
+                                id="nombre"
+                                placeholder="* Nombre"
+                            />
+                            <input
+                                type="text"
+                                name="apellido"
+                                id="apellido"
+                                placeholder="* Apellido"
+                            />
 
-                            <input type="email" name="email" id="email" />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="* E-mail"
+                            />
 
                             <input
                                 type="number"
                                 name="telefono"
                                 id="telefono"
+                                placeholder="* Celular"
                             />
 
                             <input
                                 type="text"
                                 name="direccion"
                                 id="direccion"
+                                placeholder="Dirección"
                             />
 
-                            <input type="text" name="libro" id="libro" />
+                            <input
+                                type="text"
+                                name="libro"
+                                id="libro"
+                                placeholder="* Nombre del libro"
+                            />
                         </div>
                     </form>
                     <div className={styles.buttons}>

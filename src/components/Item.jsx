@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { MdAddShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom";
 import styles from "../styles/Item.module.css";
 
 const Item = () => {
@@ -27,8 +28,9 @@ const Item = () => {
                     <p className={styles.autor}>{producto.autor}</p>
                     <div className={styles.precio}>
                         <p>${producto.precio} </p>
-
-                        <MdAddShoppingCart />
+                        <Link to={`/producto/${producto.id}`}>
+                            <MdAddShoppingCart />
+                        </Link>
                     </div>
                 </div>
             ))}

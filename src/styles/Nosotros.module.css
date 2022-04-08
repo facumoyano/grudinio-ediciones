@@ -13,12 +13,24 @@
     padding-top: 2.4rem;
     margin: 0;
 }
+@media screen and (max-width: 768px) {
+    .container h1 {
+        text-align: center;
+    }
+}
 .section {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 2rem;
     font-size: 1.2rem;
     margin-top: 3rem;
+}
+@media screen and (max-width: 768px) {
+    .section {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        justify-items: center;
+    }
 }
 .section h5 {
     margin: 0;
@@ -42,4 +54,9 @@ h5 {
 .ultimo_parrafo h5 {
     margin: 0;
     padding-top: 3rem;
+}
+@media screen and (max-width: 768px) {
+    .ultimo_parrafo {
+        padding: 2rem;
+    }
 }

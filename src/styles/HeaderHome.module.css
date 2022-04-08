@@ -7,6 +7,11 @@
     height: 300px;
     object-fit: cover;
 }
+@media screen and (max-width: 480px) {
+    .header_img img {
+        width: 300px;
+    }
+}
 .container {
     max-width: 1200px;
     display: flex;
@@ -16,20 +21,70 @@
     padding: 5rem 0;
     margin: 0 auto;
 }
-.container h1 {
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 4rem 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.header h1 {
+    display: none;
+    margin: 0;
+}
+@media screen and (max-width: 480px) {
+    .header h1 {
+        display: block;
+        text-align: center;
+        padding-top: 3rem;
+    }
+}
+.container h2 {
     margin: 0;
     font-weight: 700;
     font-size: 3.2rem;
+}
+@media screen and (max-width: 768px) {
+    .container h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container h2 {
+        font-size: 1.5rem;
+    }
 }
 .container h3 {
     margin: 1rem 0;
     font-weight: 400;
     font-size: 2.5rem;
 }
+@media screen and (max-width: 768px) {
+    .container h3 {
+        font-size: 1.8rem;
+        padding: 2rem 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container h3 {
+        display: none;
+    }
+}
 .autor {
     font-weight: 300;
     font-style: italic;
     font-size: 2rem;
+}
+@media screen and (max-width: 480px) {
+    .autor {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }
 .precio {
     font-weight: 700;
@@ -39,10 +94,24 @@
     gap: 2rem;
     margin: 0;
 }
+@media screen and (max-width: 480px) {
+    .precio {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
+    .precio_icon {
+        font-size: 2rem;
+    }
+}
 .logo {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
 }
 .logo img {
     width: 5rem;

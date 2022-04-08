@@ -3,6 +3,16 @@
     margin: 0 auto;
     padding-bottom: 2rem;
 }
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        display: none;
+    }
+}
 .bg {
     background-color: #000000;
     color: #fff;
@@ -17,4 +27,9 @@
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     gap: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

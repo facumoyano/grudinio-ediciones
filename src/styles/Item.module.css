@@ -31,6 +31,9 @@
 .precio p {
     margin: 0;
 }
+.precio a {
+    color: #fff;
+}
 .link {
     color: #fff;
 }

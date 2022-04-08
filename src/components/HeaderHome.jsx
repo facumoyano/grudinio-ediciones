@@ -6,17 +6,18 @@ import Logo from "../assets/g-logo.jpg";
 const HeaderHome = () => {
     return (
         <header className={styles.header}>
+            <h1>Te damos la bienvenida</h1>
             <div className={styles.container}>
                 <div className={styles.header_img}>
                     <img src={ImgLibro} alt="libro" />
                 </div>
                 <div>
-                    <h1>Vigilar y castigar</h1>
+                    <h2>Vigilar y castigar</h2>
                     <h3>Subtítulo</h3>
                     <p className={styles.autor}>Michel Foucalt</p>
                     <div className={styles.precio}>
                         <p>$ 500 ARG</p>
-                        <div>
+                        <div className={styles.precio_icon}>
                             <MdAddShoppingCart />
                         </div>
                     </div>

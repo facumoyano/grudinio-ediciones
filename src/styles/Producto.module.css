@@ -31,14 +31,39 @@ h2 {
     margin: 0;
     font-size: 1.8rem;
 }
+@media screen and (max-width: 768px) {
+    .titulos,
+h1,
+h2 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.titulos p {
+    font-size: 1.8rem;
+    margin: 0;
+}
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
 }
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 2rem 0;
+    }
+}
 .detalles {
     display: flex;
     gap: 2rem;
+}
+@media screen and (max-width: 480px) {
+    .detalles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .detalles_img img {
     width: 200px;
@@ -47,6 +72,11 @@ h2 {
     display: flex;
     gap: 1rem;
     font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+    .precio {
+        flex-direction: column;
+    }
 }
 .precio a {
     text-decoration: none;
@@ -63,6 +93,12 @@ h2 {
     font-size: 1.4rem;
     border-radius: 10px;
     padding: 0 1.2rem;
+}
+@media screen and (max-width: 480px) {
+    .precio button {
+        padding: 0.5rem;
+        margin: 1rem 0;
+    }
 }
 .disponible p {
     font-size: 1.2rem;
