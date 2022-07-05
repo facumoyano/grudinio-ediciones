@@ -24,7 +24,7 @@ const Producto = () => {
                         <div className={styles.detalles}>
                             <div className={styles.detalles_img}>
                                 <img
-                                    src={require(`../assets/${producto.imgUrl}`)}
+                                    src={require(`/assets/${producto.imgUrl}`)}
                                     alt={producto.titulo}
                                 />
                             </div>
