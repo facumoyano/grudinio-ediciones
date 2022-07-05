@@ -1,8 +1,12 @@
 import styles from "../styles/Producto.module.css";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import getProductById from "../helpers/getProductById";
 
-const Producto = ({ producto }) => {
+const Producto = () => {
+    const { id } = useParams();
+    const producto = getProductById(id);
+
     return (
         <main className={styles.bg}>
             <div className={styles.container}>
@@ -14,14 +18,10 @@ const Producto = ({ producto }) => {
                 <div className={styles.grid}>
                     <div className={styles.detalles}>
                         <div className={styles.detalles_img}>
-                            {producto.imgUrl ? (
-                                <img
-                                    src={require(`../assets/${producto.imgUrl}`)}
-                                    alt={producto.titulo}
-                                />
-                            ) : (
-                                "Img"
-                            )}
+                            <img
+                                src={require(`../assets/${producto.imgUrl}`)}
+                                alt={producto.titulo}
+                            />
                         </div>
                         <div className={styles.detalles_descripcion}>
                             <div className={styles.precio}>
